@@ -1,24 +1,23 @@
 $(document).ready(function () {
-  //   let a = `$$\\sum_{i=1}^{+\\infty} x^i$$`;
-  //   let d = $("#formula").text(a);
-  let i = 0;
-  $("#formula").text("$$ x^1 $$");
+  let i = 1;
+  $("#formula").text(`$$\\sum_{i=1}^{+\\infty} x^{${0}}$$`);
+  let k = 1;
+  let j = `\\sum_{i=1}^{+\\infty} x^{i}`;
+  MathJax.typeset();
   MathJax.typeset(["#formula"]);
   setInterval(function () {
     $("#formula").text(`$$\\sum_{i=1}^{+\\infty} x^{${i}}$$`);
     i += 1;
     MathJax.typeset(["#formula"]);
-    // console.log("Hello");
-    // console.log(MathJax);
+  }, 1000);
+  setInterval(function () {
+    $("#formula-2").text(`$$ ${j}  $$`);
+    if (k == 1) {
+      j += `=x^{${k}}`;
+    } else {
+      j += `+ x^{${k}}`;
+    }
+    k += 1;
+    MathJax.typeset(["#formula-2"]);
   }, 1000);
 });
-// window.MathJax = {
-//   startup: {
-//     ready: () => {
-//       MathJax.startup.defaultReady();
-//       MathJax.startup.promise.then(() => {
-//         console.log("MathJax initial typesetting complete");
-//       });
-//     },
-//   },
-// };
