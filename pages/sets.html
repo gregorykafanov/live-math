@@ -10,7 +10,7 @@
       integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo="
       crossorigin="anonymous"
     ></script>
-    <script src="./scripts.js"></script>
+    <script src="../scripts.js"></script>
     <script
       id="MathJax-script"
       defer
@@ -26,7 +26,7 @@
         },
       };
     </script>
-    <title>Sets</title>
+    <title>Множества</title>
   </head>
   <body>
     <div style="background: gray; margin-bottom: 16px">
@@ -57,6 +57,40 @@
           >
         </div>
       </div>
+    </div>
+    <div class="container">
+      <div class="title">Множества обределяются булевым уловием</div>
+      <div>
+        Пусть у нас есть некоторое булево уловие $P$ которое мы применяем к
+        обьектам $x$
+      </div>
+      <div>$$ P: X \rightarrow \{True, False\}$$</div>
+      <div>
+        Все обьекты $X$ для которых $P$ истинно образуют множество определенное
+        $P$
+      </div>
+      <div>Множество можно задавать неравенствами:</div>
+      <div>
+        $$\begin{cases} x + y < 5 \\ 0.5x - y > \frac{1}{7}\end{cases}$$
+      </div>
+      <div>
+        Эта система уравнений есть булева функция и определяет множество
+        эдементов вида $(x, y)$
+      </div>
+      <div>$P$ можно записать так:</div>
+      <div>
+        $$ P(x,y) = \begin{cases} True,& если \: x + y < 5 \: и \: 0.5x - y >
+        \frac{1}{7} \: оба \: одновременно \: истинны \\ False,& если \: хотябы
+        \: один \: из \: x + y < 5 \: или \: 0.5x - y > \frac{1}{7} \: не \:
+        истеннен\end{cases} $$
+      </div>
+      <!-- <div>
+        \begin{align} \sqrt{37} & = \sqrt{\frac{73^2-1}{12^2}} \\ & =
+        \sqrt{\frac{73^2}{12^2}\cdot\frac{73^2-1}{73^2}} \\ & =
+        \sqrt{\frac{73^2}{12^2}}\sqrt{\frac{73^2-1}{73^2}} \\ & =
+        \frac{73}{12}\sqrt{1 - \frac{1}{73^2}} \\ & \approx \frac{73}{12}\left(1
+        - \frac{1}{2\cdot73^2}\right) \end{align}
+      </div> -->
     </div>
   </body>
 </html>

@@ -15,3 +15,6 @@ https://groups.google.com/g/mathjax-users/c/MKUF5d9YEy8?pli=1
 ---
 https://gregorykafanov.github.io/live-math/
 ---
+
+https://webpages.uidaho.edu/~renaes/419/Handouts/rmarkdown-cheatsheet3.html
+https://jojozhuang.github.io/tutorial/mathjax-cheat-sheet-for-mathematical-notation/
