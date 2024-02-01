@@ -43,107 +43,38 @@
           <a
             style="color: white; font-family: sans-serif; font-weight: 700"
             href="/"
+            >Главная</a
+          >
+          <a
+            style="color: white; font-family: sans-serif; font-weight: 700"
+            href="/pages/base-steps.html"
             >Элементарные шаги</a
           >
           <a
             style="color: white; font-family: sans-serif; font-weight: 700"
-            href="pages/sets.html"
+            href="/pages/sets.html"
             >Множества</a
           >
           <a
             style="color: white; font-family: sans-serif; font-weight: 700"
-            href="pages/sets.html"
+            href="/pages/sets.html"
             >Предел</a
           >
         </div>
       </div>
     </div>
     <div class="container">
-      <!-- <div class="title">Определение предела</div>
-    <div>
-      $$ \lim_{x\to a}f(x)=L \Leftrightarrow \forall \epsilon>0 \: \exists
-      \delta>0 \: \forall x>0 : |x-a|<\delta \rightarrow |f(x)-L|<\epsilon $$
-    </div>
-    <div>$$\sum_{i=1}^{+\infty} x^i$$</div>
-    <div id="formula"></div>
-    <div id="formula-2"></div> -->
-      <div class="title">
-        Математика - это истинные шаги которые к некоторому состоянию приводят к
-        другому сотоянию
-      </div>
-      <b>Состояние (1)</b>
-      <div>$$ a < b $$</div>
-      <i>Шаг: применим операцию домножения обе стороны на $ c > 0 $</i>
-      <div>$$ ac < bc $$</div>
-      <hr />
-      <b>Состояние (2)</b>
-      <div>$$ a < b $$</div>
-      <i>Шаг: применим операцию домножения обе стороны на $ c < 0 $</i>
-      <div>$$ ac > bc $$</div>
-      <hr />
-      <b>Состояние (3)</b>
-      <div>$$ a < b $$</div>
-      <i> Шаг: если $ a\neq0 \: и \: b\neq0$ </i>
-      <span>
-        и применим операцию перевертыш обе стороны на $ (\cdot)^{-1} $
-      </span>
-      <div>$$ a^{-1} > b^{-1} \left(\frac{1}{a} > \frac{1}{b}\right)$$</div>
-      <hr />
-      <b>Состояние (4)</b>
-      <div>$$ a < b $$</div>
-      <i>
-        Шаг: применим операцию прибавления обе стороны на $ (c > 0 \: или \: с <
-        0) $
-      </i>
-      <div>$$ a + с < b + с $$</div>
-      <hr />
-      <b>Состояние (5)</b>
-      <div>$$ a < b \: или \: a > b \: или \: a = b $$</div>
-      <i>Шаг: применим операцию умножения обе стороны на $ c=0 $ (Нуль)</i>
-      <div>$$ 0 = 0 $$</div>
-      <hr />
-      <hr />
-      <div class="title">Пример</div>
+      <div class="title">Живая Математика</div>
       <div>
-        $$ a < b \overset{(1) \: при \ c>0 }{\Rightarrow} $$ $$ ac < bc
-        \overset{(4)}{\Rightarrow} $$ $$ ac + p < bc + p \overset{(1) \: при \:
-        f<0 }{\Rightarrow} $$ $$ (ac + b)f > (bc + p)f \overset{(3) \: при \:
-        (ac + p)f \neq 0 \: и \: (bc + p)f \neq 0 }{\Rightarrow} $$ $$
-        \frac{1}{(ac + b)f} < \frac{1}{(bc + p)f} $$
+        Есть много людей которым плохо дается математика, но которые при этом
+        могут делать сложные, хоть и неверные, цепочки размышлений касательно
+        происходящих вокруг них событий, как политических, исторических так и
+        каких-либо иных.
       </div>
-      <!-- <div>
-        $$ a < b \overset{(1) \: при \ c>0 }{\Rightarrow} ac < bc
-        \overset{(4)}{\Rightarrow} ac + p < bc + p \overset{(1) \: при \: f<0
-        }{\Rightarrow} (ac + b)f > (bc + p)f \overset{(3) \: при \: (ac + p)f
-        \neq 0 \: и \: (bc + p)f \neq 0 }{\Rightarrow} \frac{1}{(ac + b)f} <
-        \frac{1}{(bc + p)f} $$
-      </div> -->
-      <hr />
-      <hr />
-      <b>Состояние (6)</b>
-      <div>$$ a = b $$</div>
-      <i>Шаг: прибавим к левой стороне число c>0</i>
-      <div>$$ a + c > b $$</div>
-      <i>Шаг: прибавим к правой стороне число c>0</i>
-      <div>$$ a < b + c $$</div>
-      <b>Состояние (7)</b>
-      <div>$$ a = b $$</div>
-      <i>Шаг: вычтем из левой стороны число c>0</i>
-      <div>$$ a - c < b $$</div>
-      <i>Шаг: вычтем и правой стороны число c>0</i>
-      <div>$$ a > b - c $$</div>
-      <b>Состояние (8)</b>
-      <div>$$ a = b $$</div>
-      <i>Шаг: умножим левую часть на число c>1</i>
-      <div>$$ aс > b $$</div>
-      <b>Состояние (9)</b>
-      <div>$$ a = b $$</div>
-      <i>Шаг: умножим левую часть на число 0 < c < 1 </i>
-      <div>$$ aс < b $$</div>
-      <!-- <i>Шаг: умножим левую часть на число 0<c<1</i>
-      <div>$$ aс < b $$</div> -->
-      <!-- <i>Шаг: вычтем и правой стороны число c>0</i>
-      <div>$$ a > b - c $$</div> -->
+      <div>
+        Все бы хорошо, да вот размышления эти основываются на непроверенных
+        фактах которые были приняты за истинные.
+      </div>
     </div>
   </body>
 </html>

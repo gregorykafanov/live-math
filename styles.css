@@ -29,6 +29,8 @@ ul {
 } */
 
 html {
+  line-height: 24px;
+  font-family: sans-serif;
   color: white;
   background: rgb(60, 60, 60);
 }
@@ -44,4 +46,5 @@ html {
   font-weight: 700;
   font-family: sans-serif;
   margin-bottom: 8px;
+  line-height: 30px;
 }
