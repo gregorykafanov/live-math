@@ -11,3 +11,7 @@ https://stackoverflow.com/questions/75735815/mathjax-formular-causes-linebreak-w
 https://tex.stackexchange.com/questions/8936/how-to-break-a-long-equation
 
 https://groups.google.com/g/mathjax-users/c/MKUF5d9YEy8?pli=1
+
+---
+https://gregorykafanov.github.io/live-math/
+---
